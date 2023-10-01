@@ -1,0 +1,35 @@
+#messages-container{
+    overflow-y: auto;
+}
+
+.message{
+    padding: 10px;
+}
+
+.extra-info{
+    flex: 1 0 100%;
+    text-align: center;
+    color: grey;
+}
+
+.user-message .message-contents{
+    display: inline-flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: skyblue;
+    color: whitesmoke;
+}
+
+.user-response{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.user-response .message-contents{
+    display: inline-flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: mediumpurple;
+    color: whitesmoke;
+}
